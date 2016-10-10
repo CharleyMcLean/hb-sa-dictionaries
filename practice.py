@@ -109,15 +109,6 @@ def get_sum_zero_pairs(numbers):
 
     list_length = len(numbers)
 
-    # first_num = 0
-    # last_num = list_length - 1
-
-    # for number in numbers:
-    #     if numbers[first_num] + numbers[last_num] == 0:
-    #         zero_sum_pairs.append((numbers[first_num], numbers[last_num]))
-    #         first_num += 1
-    #         last_num -= 1
-
     # If 0 is in the list, add a (0, 0) pair
     for number in numbers:
         if number == 0:
